@@ -1,0 +1,22 @@
+{
+  "targets": {
+    "release": {
+      "outFile": "dist/lambda_garage.wasm",
+      "textFile": "dist/lambda_garage.wat",
+      "target": "wasi",
+      "optimizeLevel": 3,
+      "shrinkLevel": 0,
+      "converge": false,
+      "noAssert": false
+    },
+    "debug": {
+      "outFile": "dist/lambda_garage.wasm",
+      "textFile": "dist/lambda_garage.wat",
+      "target": "wasi",
+      "debug": true
+    }
+  },
+  "options": {
+    "bindings": "esm"
+  }
+}
