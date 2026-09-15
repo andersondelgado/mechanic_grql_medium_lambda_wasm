@@ -1,8 +1,9 @@
 {
   "name": "medium-lambda-wasm",
   "version": "1.0.0",
+  "type": "module",
   "description": "Taller Integrales 360 Garage - Next-Gen Serverless Wasm/WASI Lambda",
-  "main": "dist/lambda_garage.wasm",
+  "main": "dist/lambda_garage.js",
   "scripts": {
     "build:wasm": "asc assembly/index.ts --target wasi -o dist/lambda_garage.wasm -t dist/lambda_garage.wat -O3",
     "test:wasi": "node test_wasm_local.js",
