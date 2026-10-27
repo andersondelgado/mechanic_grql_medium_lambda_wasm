@@ -59,6 +59,12 @@ export const ENTITY_REGISTRY: Record<string, any> = {
     'vehicle_status': GestionTallerProdCatalogState,
     'vehicle_brands_models': GestionTallerProdCatalogState,
     'vehicle_types': GestionTallerProdCatalogState,
+    'payment_methods': GestionTallerProdCatalogState,
+    'GestionTallerProd_payment_methods': GestionTallerProdCatalogState,
+    'paymentMethods': GestionTallerProdCatalogState,
+    'currencies': GestionTallerProdCatalogState,
+    'GestionTallerProd_currencies': GestionTallerProdCatalogState,
+    'currency_settings': GestionTallerProdCatalogState,
     'GestionTallerProd_stats': GestionTallerProdStats,
     'stats': GestionTallerProdStats
 };
